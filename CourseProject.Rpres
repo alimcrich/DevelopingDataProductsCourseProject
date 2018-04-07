@@ -1,0 +1,30 @@
+Developing Data Products - Course Project
+========================================================
+author: Ali Richomme
+date: 7th April 2018
+autosize: true
+
+The Data
+========================================================
+
+This application is based on Edgar Anderson's Iris Data which gives measurements (in cm's) of sepal width and length and petal width and length of different species of iris'.
+
+For more information about the iris dataset, you can find it [here](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/iris.html).
+
+Example Data
+========================================================
+
+```{r}
+sample(iris)
+```
+
+The Application
+========================================================
+
+To display the use of shiny to build an application, a simple app called the 'Iris Species Predictor Game' was created. It has been deployed [here](https://alimcrich.shinyapps.io/courseproject/). The code for the application can be found on [Github](https://github.com/alimcrich/DevelopingDataProductsCourseProject). 
+
+How to use the App
+========================================================
+
+The application allows you to select different variables found within the iris dataset and then guess the species. Selecting the variables shows the different intersection points of these variables on each of the plots and therefore gives you a better idea of what species the iris is. A random forest classifier is then used to see if your answer is correct. The probabilities of each specie given the variables your input are shown in a table once you have clicked 'Submit Species Guess'.
+
