@@ -1,0 +1,18 @@
+---
+title: "Developing Data Products - Course Project"
+author: "Ali Richomme"
+date: "07/04/2018"
+output: html_document
+---
+
+# Developing Data Products - Course Project
+## Ali Richomme
+### 7th April 2018
+
+This is a submission for the Coursera course Developing Data Products, the 9th course of the Data Science Specialization.
+
+## Iris Species Predictor Game
+
+This application is based on Edgar Anderson's Iris Data which gives measurements (in cm's) of sepal width and length and petal width and length of different species of iris'. 
+
+You can adjust all the variables (sepal length and width, petal length and width) and each plot shows the intersection of each variable so that you can try and guess which species has these variables. Once you have selected the species you think it is, hit 'Submit Species Guess'. The values of the variables you selected are then fed into a random forest classifier and the probability of each species is output, it will tell you whether your guess was correct or not!
